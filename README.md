@@ -2,7 +2,7 @@
 ---
 |CSS3 |Selectors |Rules |Box-Model |Layout |
 |--- |--- |--- |--- |--- |
- <img align="right" width="460" height="300" src= "https://github.com/YekolaAcademy/CSS3-Fundamentals/blob/main/images/html_css_logo.jpeg" title ="HTML5 Logo">
+ <img align="right" width="410" height="250" src= "https://github.com/YekolaAcademy/CSS3-Fundamentals/blob/main/images/html_css_logo.jpeg" title ="HTML5 Logo">
 
 
 This is the repository for [CSS3-Fundamentals](https://yekolacademy.com/courses/css-fundamentals-learn-cascading-style-sheets-to-make-stunning-web-pages/) Course, published by [Yekola Academy](https://yekolacademy.com/our-courses/).  
