@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Flavi Bumba">
+    <meta name="description" content="Learn the CSS3 Fundamentals course at Yekola Academy">
+
+    <!--link = relationship between our document and external resources-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://use.fontawesome.com/f71e8e8f47.js"></script>
+
+    <!-- Embedded Stylesheet -->
+    <style>
+        blockquote {
+
+            font-size: 130%;
+            font-style: italic;
+            font-family: Georgia, Times, serif;
+            background-color: #efefef;
+            border-top: 2px solid #00458b;
+            border-bottom: 2px solid #00458b;
+        }
+
+        .fa-quote-right,
+        .fa-quote-left {
+            color: #00458b;
+        }
+
+        .float-example {
+            width: 45%;
+            height: auto;
+            float: left;
+            margin: 7px;
+            padding: 10px;
+            background-color: #efefef;
+        }
+
+        .clear {
+            clear: left;
+        }
+
+        pre {
+            border-left: 8px solid #00458b;
+            font-size: 1.2em;
+            line-height: 1.4;
+            margin: 0 0 24px;
+            max-width: 100%;
+            overflow: auto;
+            padding: 26px;
+            width: 100%;
+        }
+
+        code,
+        pre {
+            background-color: #eee;
+        }
+
+        code {
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            font-family: consolas, "Liberation Mono", courier, monospace;
+            padding: 0 5px;
+            word-wrap: break-word;
+        }
+
+        .token.property {
+            color: #905;
+        }
+
+        .token.selector,
+        .token.string {
+            color: #690;
+        }
+
+        .token.attr-name {
+            color: #276738;
+        }
+
+        .token.punctuation {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 class="pageheader">Welcome to CSS3 Fundamentals Web Doc</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="linking_documents.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a class="active" href="headings_body_element.html"><i class="fa fa-video-camera" aria-hidden="true"></i>Tutorial</a></li>
+                <li><a href="contact.html"> <i class="fa fa-tty" aria-hidden="true"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+
+                <h3> Generator Z </h3>
+                <p class="float-example"><i class="fa fa-quote-left" aria-hidden="true"></i>
+
+                    But a new generation is on the rise and the first step to communicating
+                    with them, is understanding they aren't just another
+                    Millennial. <i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                    ― Pamela La Gioia
+                </p>
+                <p class="float-example">
+                    With the Teen Opinions Count survey, 10,000 young people in Southeast Michigan and Western
+                    New York’s cities, suburbs, towns, and rural communities
+                    weighed in on what matters to them.
+                </p>
+                <p class="float-example">
+                    The Generator Z website unfurled over multiple release dates.
+                    To lay the groundwork for the initiative’s reason for being,
+                    we built data visualizations that tell the story behind the
+                    numbers in the Teen Opinions Count survey.
+                </p>
+
+                <p class="float-example">
+                    The findings of this survey
+                    served as the raw ingredients that became Generator Z.
+                </p>
+                <p class="float-example clear">
+                    Equipped with thousands and thousands of data points from Teen Opinions Count,
+                    the foundation teased out ten themes that surfaced
+                    again and again across demographic groups.
+                </p>
+                <p class="float-example">
+                    Today’s teens are driven by incredible curiosity; have an awe-inspiring command of technology; see society through serious awareness of themselves and the world around them;
+                    and are ready to lead in times of change
+                </p>
+
+                <h3 class="clr">Syntax</h3>
+                <pre><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 250px<span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span></code>
+    </pre>
+
+            </article>
+        </main>
+
+        <aside>
+            <h3> Box Demension, width & height</h3>
+            <ul>
+                <li>
+                    By default a box is sized just big
+                    enough to hold its contents. To
+                    set your own dimensions for a
+                    box you can use the height and
+                    width properties
+                </li>
+            </ul>
+        </aside>
+
+        <div class="clr"></div>
+
+        <footer>
+            <p> &copy; 2021 Learning Journal | Design by Yekola Academy </p>
+        </footer>
+    </div>
+</body></html>

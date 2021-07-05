@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Flavi Bumba">
+	<meta name="description" content="Learn the CSS3 Fundamentals course at Yekola Academy">
+
+	<!--link = relationship between our document and external resources-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+    
+    <script src="https://use.fontawesome.com/f71e8e8f47.js"></script>
+
+    <!-- Embedded Stylesheet -->
+	<style>
+        blockquote {
+
+ font-size: 130%;
+ font-style: italic;
+ font-family: Georgia, Times, serif;
+ background-color: #efefef;
+ border-top: 2px solid #00458b;
+ border-bottom: 2px solid #00458b;}
+ .fa-quote-right, .fa-quote-left {
+     color: #00458b;
+ }
+ .float-example{
+    width: 45%;
+    height: auto;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    background-color: #efefef;
+ } 
+ .clear {
+clear: left;} 
+/* html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+ */
+
+.box {
+  border: 5px solid #00458b;
+  background-color: lightgray;
+  padding: 50px;
+  margin: 50px;
+  width: 450px;
+  height: 350px;
+}
+
+.alternate {
+  box-sizing: border-box;
+  border: 5px solid #00458b;
+  background-color: lightgray;
+  padding: 50px;
+  margin: 50px;
+  width: 450px;
+  height: 350px;
+}
+.center{
+    border: 5px solid #00458b;
+  background-color: lightgray;
+  padding: 50px;
+  width: 450px;
+  height: 350px;
+  margin: 50px auto;
+}
+
+        pre {
+        border-left: 8px solid #00458b;
+        font-size: 1.2em;
+        line-height: 1.4;
+        margin: 0 0 24px;
+        max-width: 100%;
+        overflow: auto;
+        padding: 26px; 
+        width: 100%;
+        }
+
+        code, pre {
+        background-color: #eee;
+        }
+
+        code {
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        font-family: consolas,"Liberation Mono",courier,monospace;
+        padding: 0 5px;
+        word-wrap: break-word;
+            }
+
+        .token.property{
+            color: #905;
+        }
+        .token.selector, .token.string {
+        color: #690;
+        }
+        .token.attr-name{
+            color: #276738;
+        }
+
+        .token.punctuation {
+            color: #999;
+        }
+    
+	</style>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1 class="pageheader">Welcome to CSS3 Fundamentals Web Doc</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li ><a  href="linking_documents.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a class="active" href="headings_body_element.html"><i class="fa fa-video-camera" aria-hidden="true"></i>Tutorial</a></li>
+				<li><a  href="contact.html"> <i class="fa fa-tty" aria-hidden="true"></i> Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+        <article>
+                
+       	<h3 > Box-Models and alternative </h3> 
+       
+           <div class="box">I use the standard box model.</div>
+        <div class="alternate">I use the alternate box model.</div> 
+        <div class="center">I use centering content.</div>
+
+           
+
+
+
+    <h3 class="clr">Syntax</h3>
+    <pre><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 250px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 3px dotted red<span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span></code>
+    </pre>
+  
+        </article>
+		  </main>
+
+		<aside class="border-example">
+	       <h3 > Box fixing </h3>
+            <ul>
+            <li>  
+                By default, browsers use the standard box model. If you want to turn on the alternative model for an element you do so by setting box-sizing: border-box on it. By doing this you are telling the browser 
+                to take the border box as the area defined by any size you set.
+            </li>
+           </ul>
+		</aside>
+
+		<div class="clr"></div>
+
+		<footer>
+			<p> &copy; 2021 Learning Journal | Design by Yekola Academy </p>
+		</footer>
+	</div>
+</body>
+</html>

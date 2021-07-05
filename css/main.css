@@ -1,0 +1,174 @@
+
+/* RESET STYLES */
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+/* GENERAL STYLES */
+body {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 1024px;
+    max-width: 1280px;
+    background: #666;
+    color: rgb(14, 13, 13);
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+
+.clr {
+    clear: both;
+}
+
+/* WRAPPER STYLES */
+#container{
+    background: #fff;
+    width: 100%;
+    margin: 30px auto;
+    padding: 16px;
+}
+
+/* HEADER STYLES */
+.pageheader{
+    font-weight: normal;
+    color: #417ff4;
+}
+
+nav {
+    height: 40px;
+    background: #130c0b;
+}
+
+nav ul {
+    padding-top: 13px;
+    padding-left: 16px;
+}
+
+nav li {
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    padding-right: 20px;
+}
+
+/* unvisited link */
+a:link{
+    color: white;
+}
+
+/* visited link */
+a:visited{
+    color: chocolate;
+}
+
+/* mouse over link */
+a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+/* selected link */
+a:active{
+    color: red;
+}
+
+nav .active {
+    font-weight: bold;
+    color: #417ff4;
+}
+
+
+
+
+/* PAGE STYLES */
+
+main {
+    float: left;
+    width: 60%;
+}
+
+main h2,
+h3 {
+    text-align: center;
+    color: #905;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+a.btn {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #0000FF;
+    border: 1px solid #0000FF;
+    border-radius: 10px;
+    padding: 4px 15px;
+    transparent: background-color.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background: #eee;
+    color: #130c0b;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+aside h3 {
+    text-decoration: none;
+    color: #276738;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid #417ff4;
+}
+
+aside ul li {
+    padding: 10px 18px;
+    border-bottom: 2px solid #130c0b;
+    text-align: justify;
+}
+
+aside ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* FOOTER STYLES */
+footer {
+    padding: 16px;
+    background: #666;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}

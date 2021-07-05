@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Flavi Bumba">
+	<meta name="description" content="Learn the CSS3 Fundamentals course at Yekola Academy">
+
+	<!--link = relationship between our document and external resources-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+    
+    <script src="https://use.fontawesome.com/f71e8e8f47.js"></script>
+
+    <!-- Embedded Stylesheet -->
+	<style>
+       .positioning-head {
+        background-color: #efefef;
+        padding: 10px;
+       }
+       p.position-relative {
+        position: relative;
+        top: 10px;
+        left: 70px;
+        }
+
+        pre {
+        border-left: 8px solid #00458b;
+        font-size: 1.2em;
+        line-height: 1.4;
+        margin: 0 0 24px;
+        max-width: 100%;
+        overflow: auto;
+        padding: 26px; 
+        width: 100%;
+        }
+
+        code, pre {
+        background-color: #eee;
+        }
+
+        code {
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        font-family: consolas,"Liberation Mono",courier,monospace;
+        padding: 0 5px;
+        word-wrap: break-word;
+            }
+
+        .token.property{
+            color: #905;
+        }
+        .token.selector, .token.string {
+        color: #690;
+        }
+        .token.attr-name{
+            color: #276738;
+        }
+
+        .token.punctuation {
+            color: #999;
+        }
+    
+	</style>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1 class="pageheader">Welcome to CSS3 Fundamentals Web Doc</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li ><a  href="linking_documents.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a class="active" href="headings_body_element.html"><i class="fa fa-video-camera" aria-hidden="true"></i>Tutorial</a></li>
+				<li><a  href="contact.html"> <i class="fa fa-tty" aria-hidden="true"></i> Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+        <article>
+                
+       	<h3 class="positioning-head"> Generator Z </h3> 
+       
+        <p>
+            With the Teen Opinions Count survey, 10,000 young people in Southeast Michigan and Western
+             New York’s cities, suburbs, towns, and rural communities weighed in on what matters to them.
+             The findings of this survey served as the raw ingredients that became Generator Z. 
+        </p>
+        <p class="position-relative">
+            The Generator Z website unfurled over multiple release dates. To lay the groundwork for the initiative’s reason for being,
+             we built data visualizations that tell the story behind the numbers in the Teen Opinions Count survey.
+        </p>
+        <p>
+            Equipped with thousands and thousands of data points from Teen Opinions Count,
+             the foundation teased out ten themes that surfaced again and again across demographic groups. Today’s teens are driven by incredible curiosity; have an awe-inspiring command of technology; see society through serious awareness of themselves and the world around them;
+             and are ready to lead in times of change
+        </p>
+        
+    <h3>Syntax</h3>
+    <pre><code><span class="token selector">p</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 16px<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> 90px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span></code>
+    </pre>
+  
+        </article>
+		  </main>
+
+		<aside>
+	       <h3 > Relative position</h3>
+            <ul>
+            <li>  
+                Relative positioning moves an
+element in relation to where it
+would have been in normal flow. </li>
+            
+            </ul>
+		</aside>
+
+		<div class="clr"></div>
+
+		<footer>
+			<p> &copy; 2021 Learning Journal | Design by Yekola Academy </p>
+		</footer>
+	</div>
+</body>
+</html>

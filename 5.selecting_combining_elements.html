@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Flavi Bumba">
+    <meta name="description" content="Learn the CSS3 Fundamentals course at Yekola Academy">
+
+    <!--link = relationship between our document and external resources-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://use.fontawesome.com/f71e8e8f47.js"></script>
+
+    <!-- Embedded Stylesheet -->
+    <style>
+        pre {
+            border-left: 8px solid #00458b;
+            font-size: 1.2em;
+            line-height: 1.4;
+            margin: 0 0 24px;
+            max-width: 100%;
+            overflow: auto;
+            padding: 26px;
+            width: 100%;
+        }
+
+        code,
+        pre {
+            background-color: #eee;
+        }
+
+        code {
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            font-family: consolas, "Liberation Mono", courier, monospace;
+            padding: 0 5px;
+            word-wrap: break-word;
+        }
+
+        .token.property {
+            color: #905;
+        }
+
+        .token.selector,
+        .token.string {
+            color: #690;
+        }
+
+        .token.attr-name {
+            color: #276738;
+        }
+
+        .token.punctuation {
+            color: #999;
+        }
+
+        article ul li {
+            display: block;
+            padding: 16px;
+        }
+
+        span {
+            background-color: ghostwhite;
+        }
+
+        article ul li {
+            color: white;
+            font-weight: bold;
+        }
+
+        p>span {
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+
+
+        } 
+        .general-sibling h3 ~p{
+            background-color: midnightblue;
+            color: ghostwhite;
+            padding: 10px;
+        } 
+
+
+        article ul>li {
+            background-color: red;
+
+        }
+
+        article li:first-of-type+li {
+            background-color: orange;
+        }
+
+       article ul li:nth-child(3) {
+            background-color: yellow;
+
+        }
+
+         article ul li:nth-child(4) {
+            background-color: green;
+
+        }
+
+        article ul li.combine-selector {
+            background-color: blue;
+        }
+
+        article ul li:nth-child(6) {
+            background-color: indigo;
+
+        }
+
+        article ul li:last-child {
+            background-color: violet;
+
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 class="pageheader">Welcome to CSS3 Fundamentals Web Doc</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="linking_documents.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a class="active" href="headings_body_element.html"><i class="fa fa-video-camera" aria-hidden="true"></i>Tutorial</a></li>
+                <li><a href="contact.html"> <i class="fa fa-tty" aria-hidden="true"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+
+                <h3> Pseudo-element in Action </h3>
+                <ul>
+                    <li>RED</li>
+                    <li>ORANGE</li>
+                    <li>YELLOW</li>
+                    <li>GREEN</li>
+                    <li class="combine-selector">BLUE</li>
+                    <li>INDIGO</li>
+                    <li>VIOLET</li>
+                </ul>
+                <section>
+                    <h3> Direct Child Selector (>)</h3>
+                    <p>
+                        <span>Span #1, in the paragraph.
+                            <span>Span #2, in the span that's in the paragraph.</span>
+                        </span>
+                    </p>
+                    <span>Span #3, not in the paragragh at all.</span>
+                </section>
+                <section class="general-sibling">
+                    <h3>General sibling</h3>
+                    <p> Element, that are following the first element (though not necessarily immediately), and are children of the same parent element.</p>
+                    <div>I am a div</div>
+                    <p>I am a paragraph.</p>
+                    <div>I am a div</div>
+                    <p>I am another paragraph.</p>
+
+                </section>
+
+            </article>
+        </main>
+
+        <aside>
+            <h3>Pseudo-element In Action </h3>
+            <ul>
+                <li>
+                    <strong> Descendants</strong><span class="token selector"> e.g ul li {color: blue }</span> - Select all the element that are descendants
+                </li>
+                <li>
+                    <strong> Direct children</strong> - Select all the element that are descendants. Not any li elements that are nested. Elements matched by the second selector must be the immediate children of the elements matched by the first selector
+                </li>
+                <li>
+                    <strong> Next sibling</strong> - select element that is a next sibling of li.selected + li. li.selected ~ li “all” of the li element. Next sibling selector (+) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the next sibling element of the first selector.
+                </li>
+            </ul>
+
+        </aside>
+
+        <div class="clr"></div>
+
+        <footer>
+            <p> &copy; 2021 Learning Journal | Design by Yekola Academy </p>
+        </footer>
+    </div>
+</body>
+
+</html>
